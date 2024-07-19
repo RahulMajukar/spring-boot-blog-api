@@ -1,0 +1,68 @@
+Create user post body
+
+{
+  "username": "john_doe",
+  "email": "john.doe@example.com",
+  "password": "hashedPassword123",
+  "profilePicture": "https://example.com/profile.jpg",
+  "bio": "Software engineer with a passion for coding",
+  "dateOfBirth": "1990-01-01T00:00:00Z",
+  "gender": "Male",
+  "location": "New York, USA",
+  "occupation": "Software Engineer",
+  "education": "Bachelor's in Computer Science",
+  "dateRegistered": "2024-05-02T06:29:39.754Z",
+  "lastLoginDate": "2024-05-02T06:29:39.754Z",
+  "role": "ADMIN",
+  "status": "ACTIVE",
+  "verificationStatus": "VERIFIED",
+  "privacySettings": "PUBLIC",
+  "twoFactorAuthenticationEnabled": true,
+  "notificationPreferences": "EMAIL",
+  "subscriptionStatus": "FREE",
+  "paymentInformation": "Credit Card ending in 1234",
+  "accountActivityLogs": "User logged in at 2024-05-02T06:29:39.754Z",
+  "securityTokens": "ABC123XYZ",
+  "oauthProvider": "Google",
+  "oauthProviderId": "google123",
+  "oauthAccessToken": "accessToken123",
+  "oauthRefreshToken": "refreshToken456"
+}
+
+
+create post:
+{
+  "title": "Spring Boot Tutorial",
+  "content": "In this tutorial, we will learn how to create a RESTful API using Spring Boot.",
+  "author": {
+    "id": 1
+  },
+  "timestamp": "2024-05-02T06:29:39.754Z",
+  "lastUpdated": "2024-05-02T06:29:39.754Z",
+  "categoryOrTags": "Spring, Spring Boot, RESTful API",
+  "featuredImage": "https://example.com/image.jpg",
+  "viewsCount": 0,
+  "likesCount": 0,
+  "sharesCount": 0,
+  "status": "Published",
+  "allowComments": true
+}
+
+
+Create a tutorial:
+{
+  "title": "Introduction to Spring Boot",
+  "slug": "introduction",
+  "description": "This tutorial provides an introduction to Spring Boot.",
+  "tutorialOrder": "1",
+  "sideParent": "Spring Framework",
+  "isPublished": true,
+  "tags": "Spring Boot, Spring Framework, Java",
+  "content": "This is the content of the tutorial...",
+  "tutorial_order":"spring-1",
+  "category": {
+    "tutorialCategoryId": 1
+  }
+}
+
+create a tutorialCategory:
